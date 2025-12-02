@@ -21,20 +21,49 @@
 
 //increment => (++)
   
-    let num = 20;
-     num++; //--> post increment
-     ++num; // --> preincrement
-    console.log(num);
+//     let num = 20;
+//      num++; //--> post increment
+//      ++num; // --> preincrement
+//     console.log(num);
        
  
-//decrement => (--)
+// //decrement => (--)
 
-  let num1 = 20;
-     num1--; //--> post decrement
-     --num1; // --> predecrement
-    console.log(num1);
+//   let num1 = 20;
+//      num1--; //--> post decrement
+//      --num1; // --> predecrement
+//     console.log(num1);
        
+//post increment 
+/* 
+  1.substitute
+  2.operation
+  3.increment
+*/
 
+let num = 20;
+// let num1 = num++;      
+//  console.log(num , num1);
 
+let num1 = num++ + num++;
+console.log(num , num1);
 
+//pre increment
+/*
+  1.substitution with increment 
+  2.operation
 
+*/
+
+let newNum = 40 ;
+// let newNum1 = ++newNum;
+let newNum1 = ++newNum + ++newNum
+console.log(newNum , newNum1);
+
+//post decrement & pre decrement
+
+let num4 = 10;
+// let num5 = num4-- + num4--;
+
+let num5 = --num4 + --num4
+console.log(num4 , num5);
