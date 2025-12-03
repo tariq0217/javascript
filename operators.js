@@ -41,12 +41,12 @@
   3.increment
 */
 
-let num = 20;
-// let num1 = num++;      
-//  console.log(num , num1);
+// let num = 20;
+// // let num1 = num++;      
+// //  console.log(num , num1);
 
-let num1 = num++ + num++;
-console.log(num , num1);
+// let num1 = num++ + num++;
+// console.log(num , num1);
 
 //pre increment
 /*
@@ -55,15 +55,28 @@ console.log(num , num1);
 
 */
 
-let newNum = 40 ;
-// let newNum1 = ++newNum;
-let newNum1 = ++newNum + ++newNum
-console.log(newNum , newNum1);
+// let newNum = 40 ;
+// // let newNum1 = ++newNum;
+// let newNum1 = ++newNum + ++newNum
+// console.log(newNum , newNum1);
 
-//post decrement & pre decrement
+// //post decrement & pre decrement
 
-let num4 = 10;
-// let num5 = num4-- + num4--;
+// let num4 = 10;
+// // let num5 = num4-- + num4--;
 
-let num5 = --num4 + --num4
-console.log(num4 , num5);
+// let num5 = --num4 + --num4
+// console.log(num4 , num5);
+
+// assignment operator
+// let age = 20;
+// age += 1;
+// age -=1;
+// age *=2;
+// age /=5;
+// age %=3;
+// age **= 2;
+// console.log(age);
+
+//RELATIONAL  OPERATOR
+console.log(10 < 40);
