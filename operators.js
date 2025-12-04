@@ -79,4 +79,37 @@
 // console.log(age);
 
 //RELATIONAL  OPERATOR
-console.log(10 < 40);
+// console.log(10 < 40);
+
+//LOGICAL OPERATOR
+  //AND OPERATOR
+
+// let age  = 18;
+
+// // console.log( age>=18 && age<=30);
+
+// let idProof = "adhar";
+
+// console.log(idProof == "pan" && idProof == "license");
+
+  //OR OPERATOR
+
+  // let pwd_input = "12345";
+
+  // console.log(pwd_input=="12345" || pwd_input=="54321");
+
+  // let uName = "abc"
+
+  // console.log(pwd_input == "12345" || uName =="abc");
+
+  //NOT OPERATOR
+
+  console.log(!10>4);
+  
+
+
+  
+
+  
+  
+
