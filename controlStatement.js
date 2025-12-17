@@ -142,6 +142,7 @@ switch (day){
 
 */
 
+/*
 //Nested If
 let age = 17;
 let height = 190;
@@ -170,3 +171,12 @@ else {
     console.log("Age is not Valid");
     
 }
+
+*/
+
+//TERNARY OPERATOR
+
+let pass = false;
+
+pass ? console.log("Welcome to Website ") : console.log("Password Incorrect");
+
