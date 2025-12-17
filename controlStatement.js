@@ -51,7 +51,7 @@ if( cond){
 
 //if else if
 
-let hour = 0;
+/* let hour = 0;
 
 if(hour >= 1 && hour <=6){
     console.log("Early Morning");
@@ -102,5 +102,40 @@ else if (mark >= 91 && mark <= 100){
 
 else{
     console.log("Arreae");
+    
+}
+*/
+
+///SWITCH Statement
+/*let trafficLight = "green";
+
+switch(trafficLight){
+    case "Red" : console.log("Stop");
+    break;
+    case "Yellow" : console.log("Go Slow");
+    break;
+    case "Green" : console.log("Go");
+    break;
+    default : console.log("Pay Fine");
+    break;
+    
+}
+*/
+
+//Fall through Method
+let day = "Monday";
+
+switch (day){
+    case "Monday":
+    case "Tuesday":
+    case "Wednesday":
+    case "Thursday":
+    case "Friday": console.log("Weekday");
+    break;
+    case "Saturday":
+    case "Sunday": console.log("Weekend");
+    break;
+
+    
     
 }
