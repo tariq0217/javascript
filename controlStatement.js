@@ -25,26 +25,82 @@ if( cond){
 */
 
 
-let uAge = 17;
+// let uAge = 17;
 
-if (uAge >= 18)
-{
-    console.log("He is Eligible to Vote");
+// if (uAge >= 18)
+// {
+//     console.log("He is Eligible to Vote");
+    
+// }
+// else{
+//     console.log("He is not eligible to");
+    
+// }
+
+// let pswd_input = true;
+
+// if(pswd_input){
+//     console.log("Welcome to Website");
+    
+// }
+// else{
+//     console.log("Incorrect Password");
+    
+// } 
+
+
+//if else if
+
+let hour = 0;
+
+if(hour >= 1 && hour <=6){
+    console.log("Early Morning");
     
 }
+
+else if(hour >= 7 && hour <=12){
+    console.log(" Morning");
+
+    
+}
+
+else if(hour >= 13 && hour <=18){
+    console.log("Noon");
+    
+}
+else if(hour >= 19 && hour <=24){
+    console.log("Night");
+    
+}
+
 else{
-    console.log("He is not eligible to");
+
+    console.log("It is an invalid hour");
     
 }
 
-let pswd_input = true;
+let mark =60 ;
 
-if(pswd_input){
-    console.log("Welcome to Website");
+if (mark >= 40 && mark <= 60){
+    console.log("E - Grade");
     
 }
+
+else if (mark >= 61 && mark <= 80){
+    console.log("C - Grade");
+    
+}
+else if (mark >= 81 && mark <= 90){
+    console.log("B - Grade");
+    
+}
+
+else if (mark >= 91 && mark <= 100){
+    console.log("A - Grade");
+    
+}
+
 else{
-    console.log("Incorrect Password");
+    console.log("Arreae");
     
-} 
-
+}
