@@ -122,7 +122,7 @@ switch(trafficLight){
 }
 */
 
-//Fall through Method
+/* //Fall through Method
 let day = "Monday";
 
 switch (day){
@@ -137,5 +137,36 @@ switch (day){
     break;
 
     
+    
+}
+
+*/
+
+//Nested If
+let age = 17;
+let height = 190;
+let weight = 45;
+
+
+if (age >= 18){
+    if(height >= 150){
+        if (weight>=45) {
+            
+            console.log("You are Selected");
+            
+        }
+        else{
+            console.log("Weight is not matched");
+            
+        }
+
+    }
+    else{
+        console.log("Height is not Matched");
+        
+    }
+}
+else {
+    console.log("Age is not Valid");
     
 }
