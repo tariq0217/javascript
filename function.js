@@ -2,9 +2,13 @@ let person1 = {
     name : "tariq"
 }
 
-function printUserName(uName , uAge){
+let empId ;
+let newId =  empId || 3214;
+console.log(newId);
 
-    if (uAge <= 20)
+function printUserName(uName = "tariq", uAge = 18){
+
+    // if (uAge <= 20)
     console.log(`hi ${uName} , your age is ${uAge}` );
     
 }
@@ -12,4 +16,4 @@ function printUserName(uName , uAge){
 printUserName("tariq" , 19)
 printUserName("aslm" , 13)
 printUserName("harish" , 20)
-printUserName("abisheik" , 21)
+printUserName()
