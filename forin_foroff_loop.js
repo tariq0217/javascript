@@ -1,17 +1,78 @@
+/* // //Array
+
+// let arr = [10,20,30,40]
+
+
+// for(let i = 0; i<arr.length ; i++){
+// console.log(arr[i]);
+// }
+
+// //String
+
+// let str = "javascript";
+
+// for (let i = 0; i<str.length ; i++){
+//     console.log(str[i]);
+    
+// }
+
+*/ 
+
+/*
+
+//For-of loop 
+
 //Array
+// let arr = [10,100,1000,10000]
 
-let arr = [10,20,30,40]
+// for (let he of arr){
+//     console.log(he);
+    
+// }
+
+// //string
+
+// let str = "javascript";
+// for (let char of str){
+//     console.log(char);
+    
+// }
 
 
-for(let i = 0; i<arr.length ; i++){
-console.log(arr[i]);
+
+
+//function
+
+function* grnFun(){
+    yield 1
+    yield 2
+    yield 3
 }
 
-//String
+let iterator = grnFun();
 
-let str = "javascript";
-
-for (let i = 0; i<str.length ; i++){
-    console.log(str[i]);
+for (let val of iterator){
+    console.log(val);
     
 }
+
+function* genFun(){
+
+    yield "one"
+    yield "two"
+    yield "three"
+}
+
+let iterator1 = genFun();
+
+for (let val1 of iterator1){
+    console.log(val1);
+    
+}
+
+
+//Object 
+in for of we can iterative in object
+*/
+
+
