@@ -76,3 +76,45 @@ in for of we can iterative in object
 */
 
 
+/*For in loop
+
+//Object 
+
+let person1 = {
+    uName : "Tariq",
+    age : 19,
+    hobbies : ["ff", "crct", "movies"],
+    familDet : {
+        totalmem : 5,
+        siblings : ["a", "b","c","d"]
+    },
+    walk(){
+        console.log("I am goimg to walk ");
+        
+    }
+}
+
+for(let key in person1){
+    console.log(person1[key]);
+    
+}
+*/
+
+//Array 
+
+// let arr = [10,20,30,40]
+
+// for (let key in arr){
+//     console.log(key);
+    
+// }
+
+
+// String 
+
+let str = "java script"
+
+for (let key in str){
+    console.log(str[key]);
+    
+}
