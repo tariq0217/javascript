@@ -1,4 +1,4 @@
-// this is used for use a another object for a temporary variable // just for access
+// this is used for use a another object for a temporary variable / just for access
 
 // let employee = {
 //     eName : "tariq",
