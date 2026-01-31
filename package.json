@@ -1,0 +1,21 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "React Js Series",
+  "homepage": "https://github.com/tariq0217/javascript#readme",
+  "bugs": {
+    "url": "https://github.com/tariq0217/javascript/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tariq0217/javascript.git"
+  },
+  "license": "ISC",
+  "author": "mohammed tariq",
+  "type": "module",
+  "main": "add_remove_replce.js",
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
