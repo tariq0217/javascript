@@ -24,4 +24,4 @@ f3();
                         
 //                     macro task queue -> second priority
 //                       setTimeout
-//                       setInterval
+//                      // setInterval
