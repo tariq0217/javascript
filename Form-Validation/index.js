@@ -78,7 +78,7 @@ document.getElementById("form-validate").addEventListener("submit", function(eve
 
     }
 
-    else if(isValid){
+    if(isValid){
         alert(`Hi ${userName}, Welcome to Our Website `)
         console.log(userName,email,password);
         
